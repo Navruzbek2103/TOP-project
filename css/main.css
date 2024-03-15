@@ -3069,7 +3069,7 @@ ol {
   }
 
   .work-wrapper-list {
-    row-gap: 28px;
+    row-gap: 33px;
     margin-bottom: 36px;
     flex-wrap: wrap;
   }
@@ -3080,7 +3080,7 @@ ol {
 
   .work-wrapper-item-imgBox {
     height: 155px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
   }
 
   .work-wrapper-item-desc {
@@ -3129,6 +3129,7 @@ ol {
 
 @media only screen and (max-width: 550px) {
   .work-wrapper-list {
+    row-gap: 75px;
     margin-bottom: 35px;
     justify-content: center;
   }
@@ -3142,7 +3143,7 @@ ol {
 
   .work-wrapper-item-imgBox {
     height: 175px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
 
   .work-wrapper-item-desc {
@@ -3177,6 +3178,12 @@ ol {
   }
 }
 
+@media only screen and (max-width: 450px) {
+  .work-wrapper-list {
+    row-gap: 65px;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .work-wrapper-title {
     font-size: 22px;
@@ -3185,7 +3192,7 @@ ol {
   }
 
   .work-wrapper-list {
-    row-gap: 28px;
+    row-gap: 65px;
     margin-bottom: 32px;
   }
 
@@ -3195,7 +3202,6 @@ ol {
 
   .work-wrapper-item-imgBox {
     height: 165px;
-    margin-bottom: 20px;
   }
 
   .work-wrapper-item-desc {
