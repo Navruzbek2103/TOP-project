@@ -3159,6 +3159,7 @@ ol {
   .work-wrapper-box-list {
     flex-direction: column;
     justify-content: center;
+    gap: 35px;
   }
 
   .work-wrapper-box-item {
