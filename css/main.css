@@ -616,6 +616,8 @@ ol {
   border-radius: 19px;
   padding: 32px 68px 32px 48px;
   margin-bottom: 200px;
+  border: 1px solid red;
+  align-items: center;
 }
 .work-wrapper-box-content {
   max-width: 623px;
